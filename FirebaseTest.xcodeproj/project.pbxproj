@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B395C18D2D4E0E46006D0BDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B395C18C2D4E0E46006D0BDF /* GoogleService-Info.plist */; };
+		B395C18F2D4E0F68006D0BDF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B395C18E2D4E0F5A006D0BDF /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B395C1772D4E0B1E006D0BDF /* FirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B395C18C2D4E0E46006D0BDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B395C18E2D4E0F5A006D0BDF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		B395C16E2D4E0B1E006D0BDF = {
 			isa = PBXGroup;
 			children = (
+				B395C18C2D4E0E46006D0BDF /* GoogleService-Info.plist */,
+				B395C18E2D4E0F5A006D0BDF /* .gitignore */,
 				B395C1792D4E0B1E006D0BDF /* FirebaseTest */,
 				B395C1782D4E0B1E006D0BDF /* Products */,
 			);
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B395C18F2D4E0F68006D0BDF /* .gitignore in Resources */,
+				B395C18D2D4E0E46006D0BDF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
