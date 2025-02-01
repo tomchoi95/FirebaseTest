@@ -36,7 +36,9 @@ struct FirebaseTestApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                AuthenticationView()
+            }
         }
         .modelContainer(sharedModelContainer)
     }
